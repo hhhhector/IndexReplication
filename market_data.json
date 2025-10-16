@@ -1,0 +1,14 @@
+[
+  {
+    "symbol":"AAPL",
+    "market_cap":2800000000000,
+    "quote_type":"EQUITY",
+    "asset_type":"Stock"
+  },
+  {
+    "symbol":"MSFT",
+    "market_cap":2600000000000,
+    "quote_type":"EQUITY",
+    "asset_type":"Stock"
+  }
+]
