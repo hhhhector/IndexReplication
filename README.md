@@ -21,22 +21,27 @@ This project replicates the performance of equity indices using daily price data
 
 
 ## How to run (local)
-1. Create virtual environment and install dependencies:
-```
+1. **Clone the repository and enter the folder**
+   ```bash
+   git clone https://github.com/<yourusername>/index-replication-msci.git
+   cd index-replication-msci
+   ```
 
-python -m venv venv
-source venv/bin/activate         # or venv\Scripts\activate on Windows
-pip install -r requirements.txt
+2. **Create and activate the environment using uv**
 
-```
-2. Open `analysis.ipynb` and run cells in order (data download may take upwards of an hour).
-3. See `index_replication.ipynb` (or `analysis.ipynb`) for replication steps and plots.
+   ```bash
+   uv sync
+   uv run jupyter lab
+   ```
+
+2. Open `procurement.ipynb` and run cells in order (data download may take upwards of an hour).
+3. See `analysis.ipynb` for replication steps and plots.
 
 ## Files / structure
 - `procurement.ipynb` — data collection / cleaning pipeline.
 - `analysis.ipynb` — modeling, optimization (cvxpy), and performance plots.
-- `requirements.txt` — Python dependencies.
-- `data/` — optional sample data or references (large data not uploaded).
+- `pyproject.toml` — Python dependencies.
+- `data/` — processed data exported.
 
 ## Future work
 - Add turnover penalty and rebalancing to the optimization objective.
@@ -47,4 +52,5 @@ pip install -r requirements.txt
 
 If you want a single-line GitHub blurb for your CV or application:
 `Code & notebook: github.com/<yourusername>/index-replication-msci`
+
 
