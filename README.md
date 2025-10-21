@@ -11,9 +11,13 @@ This project replicates the performance of equity indices using daily price data
 
 ## Key results
 - The least-squares replication closely tracks the benchmark index, outperforming both naïve trackers in cumulative value.
-- Below: index vs tracker performance (normalized values).
+- Below: index vs tracker performance (normalized values):
 
 ![Index vs Tracker](tracker_vs_index.png)
+
+- Additionally: log difference performance:
+
+![Index vs Tracker](log_difference.png)
 
 
 ## How to run (local)
@@ -43,3 +47,4 @@ pip install -r requirements.txt
 
 If you want a single-line GitHub blurb for your CV or application:
 `Code & notebook: github.com/<yourusername>/index-replication-msci`
+
