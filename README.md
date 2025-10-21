@@ -49,10 +49,7 @@ This project replicates the performance of equity indices using daily price data
 - Constrain for integer/non-fractional shares and test transaction-cost-aware strategies.
 - Expand comparisons to additional indices and perform cross-validation.
 
----
 
-If you want a single-line GitHub blurb for your CV or application:
-`Code & notebook: github.com/<yourusername>/index-replication-msci`
 
 
 
