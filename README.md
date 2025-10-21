@@ -23,8 +23,8 @@ This project replicates the performance of equity indices using daily price data
 ## How to run (local)
 1. **Clone the repository and enter the folder**
    ```bash
-   git clone https://github.com/<yourusername>/index-replication-msci.git
-   cd index-replication-msci
+   git clone https://github.com/hhhhectpr/IndexReplication.git
+   cd IndexReplication
    ```
 
 2. **Create and activate the environment using uv**
@@ -48,6 +48,7 @@ This project replicates the performance of equity indices using daily price data
 - Add turnover penalty and rebalancing to the optimization objective.
 - Constrain for integer/non-fractional shares and test transaction-cost-aware strategies.
 - Expand comparisons to additional indices and perform cross-validation.
+
 
 
 
