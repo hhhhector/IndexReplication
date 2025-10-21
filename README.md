@@ -35,7 +35,6 @@ This project replicates the performance of equity indices using daily price data
    ```
 
 2. Open `procurement.ipynb` and run cells in order (data download may take upwards of an hour).
-  - Note: The project uses publicly available but not redistributable MSCI index data in the form of Excel files not present in the repo. 
 4. See `analysis.ipynb` for replication steps and plots.
 
 ## Files / structure
@@ -48,6 +47,10 @@ This project replicates the performance of equity indices using daily price data
 - Add turnover penalty and rebalancing to the optimization objective.
 - Constrain for integer/non-fractional shares and test transaction-cost-aware strategies.
 - Expand comparisons to additional indices and perform cross-validation.
+
+## Data notice
+MSCI index data used in this project was obtained from publicly accessible pages on msci.com for non-commercial research purposes only. 
+Raw data files are not redistributed in this repository; only derived results and visualizations are shown.
 
 
 
