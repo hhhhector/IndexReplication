@@ -35,7 +35,8 @@ This project replicates the performance of equity indices using daily price data
    ```
 
 2. Open `procurement.ipynb` and run cells in order (data download may take upwards of an hour).
-3. See `analysis.ipynb` for replication steps and plots.
+  - Note: The project uses publicly available but not redistributable MSCI index data in the form of Excel files not present in the repo. 
+4. See `analysis.ipynb` for replication steps and plots.
 
 ## Files / structure
 - `procurement.ipynb` — data collection / cleaning pipeline.
@@ -52,5 +53,6 @@ This project replicates the performance of equity indices using daily price data
 
 If you want a single-line GitHub blurb for your CV or application:
 `Code & notebook: github.com/<yourusername>/index-replication-msci`
+
 
 
