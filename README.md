@@ -9,7 +9,7 @@ This project replicates the performance of equity indices using daily price data
   - **Least-squares replication**: regression-style portfolio construction solved with **cvxpy** (convex optimization) to minimize squared tracking error.
 - Evaluation: MAE and MSE, value vs. index plots, and log-value difference visualizations.
 
-## Key results
+## Results
 - The least-squares replication closely tracks the benchmark index, outperforming both naïve trackers in cumulative value.
 - Below: index vs tracker performance (normalized values):
 
@@ -51,6 +51,7 @@ This project replicates the performance of equity indices using daily price data
 ## Data notice
 MSCI index data used in this project was obtained from publicly accessible pages on msci.com for non-commercial research purposes only. 
 Raw data files are not redistributed in this repository; only derived results and visualizations are shown.
+
 
 
 
